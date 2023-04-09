@@ -1,0 +1,35 @@
+.header {
+  height: 148px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 36px;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header, .container {
+  width: 100%;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.logo, .button {
+  cursor: pointer;
+}
